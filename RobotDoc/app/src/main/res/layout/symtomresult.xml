@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/resulthead"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="#fbfbfb"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/headlay" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="উপসর্গসমুহঃ"
+        android:id="@+id/uposhorgo"
+        android:layout_below="@+id/resulthead"
+        android:layout_alignParentStart="true"
+        android:textColor="#fdfdfd"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="4dp"
+        android:background="@drawable/layerred"
+        android:gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/res_symp"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="#fbfbfb"
+        android:gravity="left|center"
+        android:layout_alignStart="@+id/resulthead"
+        android:textSize="16sp"
+        android:layout_below="@+id/uposhorgo"
+        android:background="@android:drawable/screen_background_dark_transparent" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/treat_head"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="#fbfbfb"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/res_symp"
+        android:layout_alignStart="@+id/res_symp"
+        android:textSize="18sp"
+        android:background="@drawable/layerred"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/treats"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="#fbfbfb"
+        android:gravity="left|center"
+        android:layout_below="@+id/treat_head"
+        android:textSize="16sp"
+        android:background="@android:drawable/screen_background_dark_transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="New Button"
+        android:id="@+id/doc_find_1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#fdfdfd"
+        android:layout_below="@+id/treats"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/violetbutton"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>
