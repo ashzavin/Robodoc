@@ -1,2 +1,2 @@
-# Robodoc
-RoboDoc-A Smart Health Care Assistant is a mHealth application that can analyze the symptoms of a patient and determine the probability of occuring possible diseases. It also creates a real-time doctor and patient communication.
+Download the apk from the following link and install it to run the application in android platform.
+https://github.com/anzumbivor/Robodoc/blob/master/RobotDoc/app/RoboDoc.apk
